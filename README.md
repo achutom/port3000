@@ -8,6 +8,8 @@ Start localhost port 3000 with just two lines
 
 # How to use 
 ```
-import { port3000 } from express
-app.listen(PORT)
+const port3000 = require("port3000");
+const express = require("express")
+const app = express();
+port3000(app);
 ```
