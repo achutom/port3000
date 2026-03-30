@@ -1,9 +1,7 @@
-const express = require('express');
+function port3000(app){
+    const PORT = process.env.PORT || 3000;
 
-const app = express()
+    app.listen(PORT, () => console.log(`Server started successfully.\nOpen now at http://localhost:${PORT}`))
+}
 
-const PORT = process.env.PORT || 3000;
-
-app.listen(PORT)
-
-module.exports.express = express 
+module.exports = port3000;
