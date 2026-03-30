@@ -1,6 +1,6 @@
 {
   "name": "port3000",
-  "version": "1.0.0",
+  "version": "1.1",
   "description": "A simple package to run port 3000",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "author": "Asher Thomas Abraham",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "postman": "^0.2.0"
+    "express": "^4.17.1"
   }
 }
